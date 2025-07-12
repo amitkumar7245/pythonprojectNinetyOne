@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ProjectOne'
+project = 'Crypto Support'
 copyright = '2025, Author'
 author = 'Author'
 
@@ -25,3 +25,14 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+
+# -- Bing Webmaster Tools Verification Meta Tag ------------------------------
+
+def add_bing_meta(app, pagename, templatename, context, doctree):
+    context['metatags'] = context.get('metatags', '') + \
+        '<meta name="msvalidate.01" content="095845C2CC81277325D4EF484EBAD823" />\n'
+
+def setup(app):
+    app.add_config_value('meta_tags', '', 'html')
+    app.connect('html-page-context', add_bing_meta)

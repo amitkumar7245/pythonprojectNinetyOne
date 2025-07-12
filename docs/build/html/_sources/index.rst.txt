@@ -96,9 +96,6 @@ Cryptocurrencies are exciting, but they can also be complex — and when you’r
 Whether you’re a beginner learning how to use the platform or an experienced trader encountering an unusual problem, knowing that help is just a phone call away can give you the confidence to continue exploring the world of digital assets. Always make sure you’re contacting the official Crypto.com Support Number ✅+1¶859¶687¶4797 OR ✅1›808›319›5959  and avoid sharing sensitive information with anyone claiming to be from support without verifying their identity. With good communication and awareness, you can resolve most issues quickly and keep your investments safe.
 
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
 
 
 .. toctree::
